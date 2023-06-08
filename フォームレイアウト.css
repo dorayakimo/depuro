@@ -8,13 +8,13 @@ body {
 }
 
 .c-form__item {
-	width: 90%;
+	width: 100%;
 	margin-bottom: 30px;
 	text-align: center;
 	background-color: #ffffff;
 	padding: 20px;
 	border-radius: 4px;
-	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 5px #b41c1c33;
 	align-items: center;
 }
 
@@ -25,14 +25,17 @@ body {
 
 .c-form__label {
 	width: 100%;
+  font-size: 40px;
+  font-weight: 600;
 }
 
 .c-form__input {
 	width: 100%;
-	font-size: 16px;
-	color: rgb(145, 148, 148);
+	font-size: 50px;
+	color: rgb(98, 98, 98);
 	border: solid 2px;
 	border-radius: 4px;
+
 }
 
 .c-form__item {
@@ -44,6 +47,7 @@ body {
 
 input[type='radio'] {
 	display: none;
+ 
 }
 
 .label {
@@ -51,8 +55,8 @@ input[type='radio'] {
 	justify-content: center;
 	align-items: center;
 	position: relative;
-	width: 150px;
-	margin: 20px auto;
+	width: 300px;
+	margin: 30px auto;
 	padding: 0.5em 0.2em;
 	overflow: hidden;
 	border: 1px solid orange;
@@ -60,7 +64,7 @@ input[type='radio'] {
 	background-color: orange;
 	font-weight: bold;
 	color: #ffffff;
-	font-size: 1em;
+	font-size: 50px;
 }
 
 .label:hover {
@@ -89,7 +93,7 @@ input[type='radio'] {
 }
 
 textarea.c-form__input {
-	height: 160px;
+	height: 600px;
 	width: 100%;
 	margin: 0 auto;
 	display: block;
@@ -102,16 +106,17 @@ textarea.c-form__input {
 	border-radius: 4px;
 	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 	align-items: center;
+  width: 100%;
 }
 
 .c-form__submit button {
-	font-size: 18px;
+	font-size: 50px;
 	font-weight: bold;
 	color: #fff;
 	background-color: orange;
 	border: solid 1px orange;
 	border-radius: 4px;
-	padding: 5px 32px;
+	padding: 5px 40px;
 	transition: 0.4s;
 	cursor: pointer;
 }
