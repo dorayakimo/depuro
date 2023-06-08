@@ -27,6 +27,8 @@ body {
 	width: 100%;
   font-size: 40px;
   font-weight: 600;
+	font-family:arial;
+
 }
 
 .c-form__input {
